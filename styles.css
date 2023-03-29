@@ -1,0 +1,204 @@
+/* Colores
+#010101
+#F1C732
+#68ABB4
+wheat
+ color: #fff;
+ background-color: #222;
+
+Tipografías:
+Meatloaf
+AngryBirds
+Raleway */
+
+* {
+
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    
+}
+
+.perfil {
+    
+    font-size: 16px;
+    text-align: center;
+    padding-top: 1vw; 
+    line-height: 2vw;   
+}
+
+.foto-perfil{
+    border-radius: 50%;
+    width: 10vw;
+    height: auto;
+}
+.header-nav{
+    background-color: rgb(188, 203, 204);
+    width: 100%;
+    height: auto;
+    
+}
+
+h3{
+    color: rgb(73, 73, 73);
+    font-weight: 12px;
+}
+ 
+.carrera{
+    color: rgb(73, 73, 73);
+    padding-bottom: 2vw;
+    margin: 0;
+}
+
+.descripcion{
+    font-family: cursive;
+    font-size:16px;
+    text-align: center;
+    padding: 2vw;
+    line-height: 4vw;
+    margin: 5w;
+}
+.contacto{
+    font-family: cursive;
+    font-size:12px;
+    text-align: center;
+    width: 33%;
+
+}
+
+.educacion{
+    font-family: cursive;
+    font-size:12px;
+    text-align: center;
+    width: 33%;
+}
+.idioma{
+    font-family: cursive;
+    font-size:12px;
+    text-align: center;
+    width: 33%;
+
+}
+
+.experiencia-laboral{
+    font-family: system-ui, system-ui, sans-serif;
+    font-size:16px;
+    text-align: left;
+    margin-left: 0px;
+    align-items: center;
+    padding:5%;
+   
+}
+.experiencia{
+    padding: 10px;
+}
+
+.tiitulo1{
+    font-family: system-ui, system-ui, sans-serif;
+    font-size: 10px;
+    
+}
+
+.titulo2{
+    font-family: system-ui, system-ui, sans-serif;
+    font-size: 14px;
+}
+
+.text{
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+}
+.main{
+    background-color: whitesmoke;
+    padding: 5vw;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    
+}
+
+.descr-empleos{
+    text-align: justify;
+    font-family: system-ui, system-ui, sans-serif;
+    font-size: 16x;
+    line-height: 20px;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    flex-direction: column;
+    padding: 20px;
+    align-items: flex-center;
+    margin:20px;
+}
+
+.logo-con-descr-main{
+    text-align: center; 
+}
+
+.fa-user-large, .fa-user-graduate, .fa-globe, .fa-briefcase{
+    transition: all 1500ms;
+    font-size: 20px;
+    margin-top: 1vw;
+
+}
+
+.fa-user-large:hover, .fa-user-graduate:hover, .fa-globe:hover, .fa-briefcase:hover {
+    transform: rotate(360deg);
+    color: blue;
+    
+}
+.iconos{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    background-color: rgb(188, 203, 204);
+}
+.button{
+    background-color: rgb(188, 203, 204);
+    color: black;
+    font-size: 16px;
+    padding: 4px;
+    border-radius: 10px;
+    margin-bottom: 4vw;
+}
+
+.main-botones{
+    text-align: center;
+}
+.login-input{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(73, 73, 73);
+    margin-bottom: 30px;
+    margin-left: 30%;
+    width: 40vw;
+}
+.style-form{
+    background-color: aliceblue;
+    padding: 20px;
+}
+.login{
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.formulario{
+    text-align: center;
+    font-size: 18px;
+    padding: 3vw;
+}
+.button-contacto{
+    background-color: rgb(117, 182, 117);
+    color: black;
+    font-size: 16px;
+    padding: 4px;
+    border-radius: 10px;
+    margin-bottom: 4vw;
+    margin-top: 1vw;
+}
